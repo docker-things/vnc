@@ -19,7 +19,7 @@ BUILD_ARGS=(
 RUN_ARGS=(
     -h "$PROJECT_NAME"
 
-    -v `pwd`/home:/home/$(whoami)
+    -v `pwd`/data:/home/$(whoami)
     -v /media:/media
     -v /home/$(whoami)/dev:/home/$(whoami)/dev
     -v /home/$(whoami)/.bin:/home/$(whoami)/.bin
